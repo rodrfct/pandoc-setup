@@ -274,6 +274,13 @@ div.sourceCode button:hover {
     left: 0;
     bottom: 0;
   }
+  
+  @media (prefers-color-scheme: light) {
+      nav {
+        background-color: #c5c5c5 !important;
+        border-right: 2px solid;
+      }
+  }
 
   
   nav h2 {

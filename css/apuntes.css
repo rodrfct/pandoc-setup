@@ -1,4 +1,7 @@
 @media all {
+  * {
+    transition: .7s ease color, .7s ease background-color;
+  }
 
   /* CONFIGURACIÓN */
 

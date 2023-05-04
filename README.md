@@ -17,3 +17,14 @@ working on any directory.
 * `pandoc` obviously.
 * `weasyprint` for PDF conversion.
 * `yq-go` for the script to parse YAML files.
+
+# Usage
+
+To convert with `akdmik`:  
+```console
+akdmik INPUT OUTPUT DEFAULT
+```
+
+Currently there are two `defaults`:
+- apuntes
+- apuntes-imprimir

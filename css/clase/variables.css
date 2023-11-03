@@ -1,0 +1,16 @@
+:root {
+	--texto: #060505;
+	--color-fondo: #efebeb;
+	--primario: #299292;
+	--secundario: #cbcbcb;
+	--acento: #329f9f;
+	
+	--color-fondo-codeblock: #beb7a7;
+}
+:root[data-theme="dark"] {
+  --text: #faf9f9;
+  --background: #000000;
+  --primary: #6cd5d5;
+  --secondary: #433d3d;
+  --accent: #60cdcd;
+}

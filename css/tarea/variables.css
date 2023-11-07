@@ -5,7 +5,7 @@
 	--secundario: #cbcbcb;
 	--acento: #329f9f;
 	
-	--color-fondo-codeblock: #beb7a7;
+    --color-fondo-codeblock: #3a3a3a;
 }
 :root[data-theme="dark"] {
   --text: #faf9f9;

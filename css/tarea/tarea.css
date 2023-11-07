@@ -9,9 +9,13 @@
   }
 
   /* Títulos */
-  /*#title-block-header {
+  #title-block-header {
     margin-top: 10%;
-  }*/
+  }
+
+	#title-block-header .author {
+		text-align: center;
+	}
 
   h1 {
     page-break-before: always;
@@ -74,18 +78,18 @@
   body {
 	margin: 0 18%;
     /* font-family: 'Zekton Regular', zekton, zekton-regular; */
-    background-color: var(--color-fondo) !important;
+    background-color: var(--color-fondo);
     color: var(--texto);
   }
   
 
   /* Blockquotes */
   blockquote {
-    background-color: var(--alt-color-fondo);
-    color: var(--blockquote-text-color);
-    border: 1px solid;
-    border-color: var(--blockquote-border-color);
-  }
+  color: #666666;
+  margin: 0;
+  padding-left: 3em;
+  border-left: 0.5em #EEE solid;
+}
   
   /* Matemáticas */
   math {
@@ -137,7 +141,7 @@ code:not(.sourceCode) {
 div.sourceCode {
   font-family: "Fira Code", fira-code, monospace;
   font-weight: 500;
-  color: var(--color-texto-2);
+  color: var(--color-texto-2, #bbb);
   background-color: var(--color-fondo-codeblock);
   margin: 1em 0;
   padding: 0.5em 0.3em;
@@ -174,19 +178,19 @@ code.javascript .fu, code.html .fu {
   .task-list input::before {
     display: inline;
     content: '☐';
-    color: var(--color-titulo-2);
+    color: var(--texto);
   }
 
   .task-list input:checked::before {
     display: inline;
     content: '☑';
-    color: var(--color-titulo-2);
+    color: var(--texto);
   }
 
 
   /* Impresora sin color */
 
-  @media print and (color: 0) {
+  @media (color: 0) {
     * {
       background-color: white;
       color: black;

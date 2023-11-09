@@ -3,9 +3,10 @@ css:
    - css/tarea/variables.css
    - css/tarea/tarea.css
    - css/syntax_highlight.css
-reference-location: section
 template: tarea.html
 table-of-contents: true
+reference-location: section
+number-sections: true
 html-math-method:
   method: mathml
 from: markdown-native_divs

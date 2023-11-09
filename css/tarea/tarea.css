@@ -138,10 +138,11 @@
 /* CÓDIGO */
 code:not(.sourceCode) {
   color: var(--primario);
+  font-size: .9em;
   font-weight: 500;
   background-color: #272626;
   padding: 0.1em 0.3em;
-  border-radius: 0.5em;
+  border-radius: 0.4em;
   /*! border: 1px solid var(--color-enlace); */
 }
 

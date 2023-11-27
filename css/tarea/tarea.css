@@ -4,8 +4,13 @@
 
   /* Página*/
   @page {
-    margin: 0cm;
-    padding: 0.5cm 0 0 0;
+    size: A4;
+    background-color: var(--color-fondo);
+    margin: 0.8cm 3cm 1.2cm 3cm;
+
+    @bottom-center {
+    	content: counter(page);
+    }
   }
 
   /* Títulos */
@@ -83,7 +88,7 @@
 
   /* Cuerpo */
   body {
-	margin: 0 18%;
+	margin: 0;
     font-family: 'Fanwood','Prociono';
 	font-feature-settings: "lnum";
     background-color: var(--color-fondo);

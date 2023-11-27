@@ -103,6 +103,11 @@
 		margin: 0 0.2em;
 	}
 
+	/* Bullet Lists */
+	ul li {
+		margin-bottom: .2cm;
+	}
+
 	/* Tareas */
 	.task-list {
 		list-style: none;

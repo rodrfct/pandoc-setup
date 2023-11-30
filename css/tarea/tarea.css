@@ -140,6 +140,7 @@
 /* CÓDIGO */
 code:not(.sourceCode) {
 	color: var(--primario);
+	font-family: monospace;
 	font-size: 0.9em;
 	font-weight: 500;
 	background-color: #272626;

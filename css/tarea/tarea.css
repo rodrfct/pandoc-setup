@@ -49,6 +49,11 @@
 		font-weight: 600;
 	}
 
+	/* Imágenes */
+	img {
+		max-width: 100%;
+	}
+
 	/* Índice */
 	#TOC {
 		page-break-after: always;

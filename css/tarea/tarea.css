@@ -50,8 +50,22 @@
 	}
 
 	/* Imágenes */
-	img {
+	figure, img {
 		max-width: 100%;
+	}
+
+	img {
+		margin: 1em;
+	}
+
+	figure > img {
+		margin: 0;
+	}
+
+	figcaption {
+		font-size: .8em;
+		font-style: italic;
+		text-align: center;
 	}
 
 	/* Índice */

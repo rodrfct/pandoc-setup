@@ -1,4 +1,5 @@
 pdf-engine: weasyprint
+highlight-style: breezedark
 css:
    - css/tarea/variables.css
    - css/tarea/tarea.css

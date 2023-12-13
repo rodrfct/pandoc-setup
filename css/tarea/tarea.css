@@ -42,6 +42,10 @@
 		page-break-after: avoid;
 	}
 
+	.header-section-number:after {
+		content: ' -'
+	}
+
 	/* Enlaces */
 	a {
 		text-decoration: none;

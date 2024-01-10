@@ -128,6 +128,7 @@
 
 	/* Tablas */
 	th, td {
+		page-break-inside: avoid;
 		border: 1px solid #555;
 		padding: .5em;
 	}

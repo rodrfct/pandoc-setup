@@ -12,6 +12,12 @@
 		}
 	}
 
+	@media screen {
+		body {
+			margin: 0 15% !important;;
+		}
+	}
+
 	/* Títulos */
 	#title-block-header {
 		margin-top: 10%;

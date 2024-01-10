@@ -126,6 +126,12 @@
 		border-left: 0.5em #eee solid;
 	}
 
+	/* Tablas */
+	th, td {
+		border: 1px solid #555;
+		padding: .5em;
+	}
+
 	/* Matemáticas */
 	math {
 		font-size: 1.4em;

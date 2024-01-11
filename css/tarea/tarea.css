@@ -127,8 +127,19 @@
 	}
 
 	/* Tablas */
-	th, td {
+	table {
 		page-break-inside: avoid;
+		border-collapse: collapse;
+	}
+
+	thead th {
+		border: 2px solid var(--acento);
+		/* This is --primario with alpha, there is no way to set transparency
+		   on a custom property just for one use, not one that I know at least */
+		background-color: #29929233;
+	}
+
+	th, td {
 		border: 1px solid #555;
 		padding: .5em;
 	}

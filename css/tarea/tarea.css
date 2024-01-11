@@ -216,6 +216,10 @@ div.sourceCode > pre {
 	color: #3c6624;
 }
 
+.sourceCode.abc * {
+	color: inherit;
+}
+
 code.javascript .fu,
 code.html .fu {
 	color: #52523f !important;

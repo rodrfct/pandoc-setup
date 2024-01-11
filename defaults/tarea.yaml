@@ -6,7 +6,6 @@ css:
    - css/syntax_highlight.css
 template: tarea.html
 table-of-contents: true
-reference-location: section
 number-sections: true
 html-math-method:
   method: mathml

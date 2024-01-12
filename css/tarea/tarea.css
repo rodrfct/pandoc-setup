@@ -245,13 +245,4 @@ code.html .fu {
 		content: "☑";
 		color: var(--texto);
 	}
-
-	/* Impresora sin color */
-
-	@media (color: 0) {
-		* {
-			background-color: white;
-			color: black;
-		}
-	}
 }
